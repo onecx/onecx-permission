@@ -1,0 +1,12 @@
+dependencies:
+- name: helm-product
+  repository: oci://ghcr.io/onecx/charts
+  version: 0.0.0
+- name: onecx-permission-svc
+  repository: oci://ghcr.io/onecx/charts
+  version: 0.0.0-rc.6
+- name: onecx-permission-operator
+  repository: oci://ghcr.io/onecx/charts
+  version: 0.0.0-rc.4
+digest: sha256:7faa343369269c4191be96a616cca79678cd3b8b457dc066f8ed3f2f78e0fc3c
+generated: "2024-01-23T17:57:19.221922112+01:00"

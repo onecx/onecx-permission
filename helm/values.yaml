@@ -1,0 +1,12 @@
+deployment:
+  svc: true
+  operator: true
+
+product:
+  info:
+    data:
+      description: "Onecx permission"
+      imageUrl: ""
+      iconName: "gear"
+      dispalyName: "Permission managment"
+      basePath: "/permission"

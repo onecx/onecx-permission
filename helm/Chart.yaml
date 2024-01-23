@@ -1,0 +1,20 @@
+apiversion: v2
+name: onecx-product-store
+version: 0.0.0
+appversion: 0.0.0
+dependencies:
+- name: helm-product
+  version: ^0
+  repository: oci://ghcr.io/onecx/charts
+  alias: product
+- name: onecx-permission-svc
+  version: "*-0"
+  repository: oci://ghcr.io/onecx/charts
+  condition: "deployment.svc"  
+  alias: "svc"
+- name: onecx-permission-operator
+  version: "*-0"
+  repository: oci://ghcr.io/onecx/charts
+  condition: "deployment.operator"  
+  alias: "operator"
+
