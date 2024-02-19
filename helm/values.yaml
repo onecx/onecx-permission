@@ -1,12 +1,14 @@
 deployment:
   svc: true
+  bff: true
+  ui: true
   operator: true
 
 product:
   info:
     data:
-      description: "Onecx permission"
+      description: "OneCX Permission"
       imageUrl: ""
       iconName: "gear"
-      dispalyName: "Permission managment"
+      dispalyName: "OneCX Permission"
       basePath: "/permission"
