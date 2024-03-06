@@ -10,5 +10,5 @@ product:
       description: "OneCX Permission"
       imageUrl: ""
       iconName: "gear"
-      dispalyName: "OneCX Permission"
+      displayName: "OneCX Permission"
       basePath: "/permission"
