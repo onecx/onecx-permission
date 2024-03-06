@@ -1,3 +1,3 @@
 # onecx-permission
 
-OneCx permission
+OneCX Permission
