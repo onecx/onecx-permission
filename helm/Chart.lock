@@ -1,18 +1,18 @@
 dependencies:
 - name: helm-product
   repository: oci://ghcr.io/onecx/charts
-  version: 0.1.0
+  version: 0.2.0
 - name: onecx-permission-svc
   repository: oci://ghcr.io/onecx/charts
   version: 0.0.0-rc.54
 - name: onecx-permission-bff
   repository: oci://ghcr.io/onecx/charts
-  version: 0.0.0-rc.34
+  version: 0.0.0-rc.35
 - name: onecx-permission-ui
   repository: oci://ghcr.io/onecx/charts
   version: 0.0.0-rc.27
 - name: onecx-permission-operator
   repository: oci://ghcr.io/onecx/charts
   version: 0.0.0-rc.16
-digest: sha256:d814e3b047bfb02df427c090398d43403791fe42c8b26974fb341d82dade8af4
-generated: "2024-06-03T14:12:29.370349756Z"
+digest: sha256:33eafa6dbcffafffd390810c258cf4a39395f9bbfb323d01b674af7e82f1b8d8
+generated: "2024-06-04T13:01:07.594507688Z"
