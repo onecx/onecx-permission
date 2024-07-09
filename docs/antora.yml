@@ -1,0 +1,9 @@
+name: onecx-permission
+title: Permission Management
+version: latest
+start_page: onecx-permission:index.adoc
+nav:
+  - modules/onecx-permission/nav.adoc
+  - modules/onecx-permission-svc/nav.adoc
+  - modules/onecx-permission-bff/nav.adoc
+  - modules/onecx-permission-operator/nav.adoc
