@@ -1,5 +1,55 @@
 = OneCX Permission Management
 
+.Permission UI
+image::overview.png[]
+.Permission management
+image::permissions.png[]
+
+== Overview
+The Role and Permission Management Solution is designed to provide a robust framework for defining and managing user roles and permissions within an organization. This solution ensures that users have appropriate access to resources based on their roles, enhancing security and operational efficiency.
+
+Key Features includes:
+
+*Role Definition*:
+
+* Customizable Roles-: Allows administrators to create and define roles based on organizational needs, specifying the responsibilities and access levels associated with each role.
+* Predefined Roles-: Offers a set of predefined roles that can be used as templates or starting points for customization.
+
+*Permission Assignment*:
+
+* Granular Permissions-: Provides granular control over permissions, allowing administrators to specify exactly what actions users can perform and what resources they can access.
+* Role-Based Access Control (RBAC)-: Implements RBAC to ensure that permissions are assigned based on user roles, simplifying the management of access rights.
+
+*Visibility and Accessibility Control*:
+
+* Button and Action Visibility-: Controls the visibility and accessibility of buttons, actions, and links based on user roles and permissions. This ensures that users only see and interact with elements relevant to their roles.
+* Dynamic Interface-: Adjusts the user interface dynamically to reflect the permissions and access levels of each user.
+
+*Integration*:
+
+* System Integration-: Integrates with other enterprise systems to ensure consistent and synchronized role and permission management across platforms.
+* IDM Integration-: Integrates with IDM systems like Key-cloak to streamline user authentication and authorization processes. This ensures that user roles are received and managed centrally, even if they exist across different IDMs.
+
+*Security and Compliance*:
+
+* Access Control-: Ensures that only authorized users can access sensitive information and perform critical actions.
+* Service BFF Security-: Supports security at the service backend-for-frontend (BFF) layer, ensuring that all service interactions are secure and compliant with organizational policies.
+
+== Benefits
+* Enhanced Security: Ensures that users have appropriate access to resources, reducing the risk of unauthorized access and data breaches.
+* Operational Efficiency: Simplifies the management of roles and permissions, saving time and reducing administrative burden.
+* Flexibility: Offers a high degree of customization, allowing organizations to tailor roles and permissions to their specific needs.
+* Scalability: Supports the growth of the organization by allowing for easy scaling of roles and permissions as the user base expands.
+* Improved User Experience: Controls the visibility and accessibility of interface elements, ensuring a streamlined and relevant user experience.
+* Centralized Identity Management: IDM integration ensures that user identities and roles are managed centrally, enhancing security and consistency across all systems, even when roles exist in multiple IDMs.
+
+== UI Examples
+
+.Permissions overview
+image::permissions_overview.png[]
+.Permissions configuration
+image::permission_configuration.png[]
+
 == Licence
 This software is licensed under the Apache License, Version 2.0.
 You may obtain a copy of the license in the corresponding LICENSE file or visit the link:https://www.apache.org/licenses/LICENSE-2.0[Apache website] for more information.
@@ -8,16 +58,10 @@ You may obtain a copy of the license in the corresponding LICENSE file or visit 
 We welcome contributions from the community.
 If you would like to contribute to the development of OneCX Permission Management Software, please follow our contribution guidelines (tbd).
 
-== What is Permission Management?
-Permission Management refers to storing and retrieving Permission items usable in context of OneCX applications.
-
-== Key Features
-* Permission item Storage and Retrieval: Store and retrieve Permission items usable in context of OneCX applications.
-
-== Issue tracking
+== Issue Tracking
 All OneCX Permission issues are tracked and maintained at the link:https://xyz.com[issue tracking tool].
 
-== Overview
+== Structure Overview
 OneCX Permission Software is a comprehensive solution for managing Permission items in a user-friendly and efficient manner.
 It is a solution that consists of three main components: a backend service, a user interface and a backend-for-frontend (BFF) layer.
 
