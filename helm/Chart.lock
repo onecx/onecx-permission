@@ -10,9 +10,9 @@ dependencies:
   version: 1.5.0-rc.6
 - name: onecx-permission-ui
   repository: oci://ghcr.io/onecx/charts
-  version: 1.5.0-rc.8
+  version: 1.5.0-rc.9
 - name: onecx-permission-operator
   repository: oci://ghcr.io/onecx/charts
   version: 1.5.0-rc.5
-digest: sha256:e94790648ecefdef27ed88eb4047f01c0904eb8160cb2660349edd215e68954f
-generated: "2025-03-08T18:21:17.032244453Z"
+digest: sha256:7c42f52ab28127721d499b4331296cd7b69cf6d1bd1c4efd4aeeac2946d26a35
+generated: "2025-03-10T04:54:54.194661463Z"
