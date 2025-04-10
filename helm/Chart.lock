@@ -4,7 +4,7 @@ dependencies:
   version: 0.3.0
 - name: onecx-permission-svc
   repository: oci://ghcr.io/onecx/charts
-  version: 1.6.0-rc.1
+  version: 1.6.0
 - name: onecx-permission-bff
   repository: oci://ghcr.io/onecx/charts
   version: 1.5.0
@@ -14,5 +14,5 @@ dependencies:
 - name: onecx-permission-operator
   repository: oci://ghcr.io/onecx/charts
   version: 1.5.0
-digest: sha256:90b868ac4cf2d92e6233cdfe98be015d60cca592930cd5eaac51e4c304cd3b34
-generated: "2025-04-10T10:45:05.914610118Z"
+digest: sha256:88bc9239147b22c5a57aa459957aa74be5806aff3cb55eacf49e64667a505223
+generated: "2025-04-10T16:46:00.603647817Z"
