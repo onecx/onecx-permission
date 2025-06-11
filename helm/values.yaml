@@ -9,6 +9,8 @@ product:
     data:
       description: "OneCX Permission"
       imageUrl: ""
-      iconName: "gear"
+      iconName: cog
       displayName: "OneCX Permission"
-      basePath: "/permission"
+      basePath: /permission
+      provider: "OneCX Team"
+      classifications: [ "Administration" ]
