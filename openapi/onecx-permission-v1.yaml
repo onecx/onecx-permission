@@ -1,12 +1,14 @@
 ---
 openapi: 3.0.3
 info:
-  title: onecx-permission v1
+  title: onecx-permission external service V1
+  description: This API provides endpoints to retrieve Permissions of an user for an specific application
   version: 1.0.0
 servers:
   - url: "http://onecx-permission"
 tags:
   - name: permission
+    description: Retrieve Permissions
 paths:
   /v1/permissions/user/{productName}/{appId}:
     post:
@@ -14,7 +16,7 @@ paths:
         - oauth2: [ ocx-pm:read ]
       tags:
         - permission
-      description: Get permissions of the product application for the user
+      description: Get permissions of an application by its id and product name for the requesting user
       operationId: getApplicationPermissions
       parameters:
         - name: productName
@@ -37,7 +39,7 @@ paths:
               $ref: '#/components/schemas/PermissionRequest'
       responses:
         200:
-          description: Permission updated
+          description: Permissions retrieved successfully
           content:
             application/json:
               schema:
