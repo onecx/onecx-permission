@@ -13,6 +13,6 @@ dependencies:
   version: 1.8.0-rc.23
 - name: onecx-permission-operator
   repository: oci://ghcr.io/onecx/charts
-  version: 1.8.0-rc.8
-digest: sha256:b11b388e63af0887c8b4d9ccf3e81b012964d18b856449972740dfa355bc2476
-generated: "2025-11-11T23:37:06.968469688Z"
+  version: 1.8.0-rc.9
+digest: sha256:33095c0b2fd26374f3d853477f01a852db955a9bee8c85dd8d5a36f28bef9d6e
+generated: "2025-11-13T06:34:52.472455669Z"
