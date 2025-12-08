@@ -1,0 +1,9 @@
+* xref:documentation:onecx-permission:index.adoc[General]
++
+include::documentation:onecx-permission-ui:partial$nav.adoc[]
++
+include::documentation:onecx-permission-bff:partial$nav.adoc[]
++
+include::documentation:onecx-permission-svc:partial$nav.adoc[]
++
+include::documentation:onecx-permission-operator:partial$nav.adoc[]
