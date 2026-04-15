@@ -7,12 +7,12 @@ dependencies:
   version: 1.12.0-rc.13
 - name: onecx-permission-bff
   repository: oci://ghcr.io/onecx/charts
-  version: 1.12.0-rc.11
+  version: 1.12.0-rc.12
 - name: onecx-permission-ui
   repository: oci://ghcr.io/onecx/charts
   version: 1.10.0-rc.11
 - name: onecx-permission-operator
   repository: oci://ghcr.io/onecx/charts
   version: 1.10.0-rc.12
-digest: sha256:f92f91ef6facfe61e716165f85387963ba7cac4b2ef8fec33feedfd93e11e548
-generated: "2026-04-15T21:32:38.433246093Z"
+digest: sha256:4ee580dee18dcb9067c808cf7872434251a8219cf77b7e7cc273ffea9afe1cc3
+generated: "2026-04-15T22:34:30.932398377Z"
